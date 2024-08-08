@@ -25,12 +25,14 @@ const projects = [
 ];
 
 export default async function ProjectsPage() {
-    for (const p of projects) {
-        return (
-            <div>
-                <div className="grid grid-cols-1 gap-8 mx-auto lg:grid-cols-2 ">
-                    <Card>
-                        {projects.map((p) => (
+    return (
+        <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
+            <Navigation />
+
+            <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-3 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+                {projects.map((p) => (
+                    <div style={{ marginTop: '75px' }}>
+                        <Card>
                             <Link href={p.href}>
                                 <article className="relative w-full h-full p-4 md:p-8">
                                     <div className="flex items-center justify-between gap-2">
@@ -73,10 +75,10 @@ export default async function ProjectsPage() {
                                     </div>
                                 </article>
                             </Link>
-                        ))}
-                    </Card>
-                </div>
+                        </Card>
+                    </div>
+                ))}
             </div>
-        );
-    }
+        </div>
+    );
 }

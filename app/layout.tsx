@@ -12,12 +12,12 @@ export const metadata: Metadata = {
     description: '',
     openGraph: {
         title: 'Matthew',
-        description: 'Co-founder of unkey.dev and founder of planetfall.io',
+        description: "I'm a software engineer/web dev",
         url: 'https://chronark.com',
         siteName: 'chronark.com',
         images: [
             {
-                url: 'https://chronark.com/og.png',
+                url: '',
                 width: 1920,
                 height: 1080,
             },
