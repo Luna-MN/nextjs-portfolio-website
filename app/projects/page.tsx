@@ -1,5 +1,6 @@
 import { Navigation } from '../components/nav';
 import { Card } from '../components/card';
+import Particles from '../components/particles';
 import Link from 'next/link';
 import { Article } from './article';
 const projects = [
@@ -46,19 +47,20 @@ export default async function ProjectsPage() {
     return (
         <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
             <Navigation />
-            <div className="max-w-2xl mx-auto lg:mx-0">
+            <div className="w-full mx-auto lg:mx-0 pb-10">
                 <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl pt-20">
-                    <div>Projects</div>
+                    <div className="flex justify-center items-center">
+                        Projects
+                    </div>
                 </h2>
-                <p className="mt-4 text-zinc-400">
-                    Some of the projects are from work and some are on my own
+                <p className="flex justify-center items-center mt-4 text-zinc-400">
+                    Some of the projects I work on in my some are on my own
                     time.
                 </p>
-                <div style={{ marginTop: '30px' }}></div>
             </div>
+            <Particles className="absolute inset-0 -z-10" quantity={100} />
             <div className="w-full h-px bg-zinc-800" />
-            <div style={{ marginTop: '30px' }}></div>
-            <div className="grid w-full h-full min-h-screen grid-cols-3 gap-8 mx-auto mt-3 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+            <div className="grid w-full h-full min-h-screen grid-cols-3 gap-8 mx-auto mt-3 sm:mt-0 sm:grid-cols-3 lg:gap-16 pt-10">
                 {projects.map((p) => (
                     <Card>
                         <Link href={p.href}>
