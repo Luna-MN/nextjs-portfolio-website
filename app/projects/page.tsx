@@ -22,16 +22,33 @@ const projects = [
         href: 'https://github.com/Luna-MN/ffxiv-plugin',
         date: '2022-01-03',
     },
+    {
+        title: 'Project 3',
+        description: 'This is a description for project 3',
+        href: 'https://github.com/Luna-MN/ffxiv-plugin',
+        date: '2022-01-03',
+    },
+    {
+        title: 'Project 3',
+        description: 'This is a description for project 3',
+        href: 'https://github.com/Luna-MN/ffxiv-plugin',
+        date: '2022-01-03',
+    },
+    {
+        title: 'Project 3',
+        description: 'This is a description for project 3',
+        href: 'https://github.com/Luna-MN/ffxiv-plugin',
+        date: '2022-01-03',
+    },
 ];
 
 export default async function ProjectsPage() {
     return (
         <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
             <Navigation />
-
-            <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-3 sm:mt-0 sm:grid-cols-3 lg:gap-16">
-                {projects.map((p) => (
-                    <div style={{ marginTop: '75px' }}>
+            <div style={{ marginTop: '75px' }}>
+                <div className="grid w-full h-full min-h-screen grid-cols-3 gap-8 mx-auto mt-3 sm:mt-0 sm:grid-cols-3 lg:gap-16">
+                    {projects.map((p) => (
                         <Card>
                             <Link href={p.href}>
                                 <article className="relative w-full h-full p-4 md:p-8">
@@ -76,8 +93,8 @@ export default async function ProjectsPage() {
                                 </article>
                             </Link>
                         </Card>
-                    </div>
-                ))}
+                    ))}
+                </div>
             </div>
         </div>
     );
