@@ -4,5 +4,20 @@ import { Card } from '../../components/card';
 import Link from 'next/link';
 
 export default async function DutyCompletePage() {
-    return <div></div>;
+    return (
+        <div className="relative pb-16">
+            <Navigation />
+            <div className="max-w-2xl mx-auto lg:mx-0 pt-20">
+                <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
+                    <div>
+                        <h1>Duty Complete Plugin</h1>
+                    </div>
+                </h2>
+                <p className="mt-4 text-zinc-400">
+                    this is a pluin I made for FFXIV in C#
+                </p>
+                <div style={{ marginTop: '30px' }}></div>
+            </div>
+        </div>
+    );
 }
