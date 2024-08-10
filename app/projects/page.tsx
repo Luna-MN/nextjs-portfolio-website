@@ -14,7 +14,7 @@ const projects = [
     {
         title: 'FF14 Discord Bot',
         description: 'A discord bot for FFXIV I worked on with a friend',
-        href: 'https://github.com/FabianXh/FF14DiscordBot',
+        href: '/projects/FF14DiscordBot',
         date: '2024-07-30',
     },
     {
