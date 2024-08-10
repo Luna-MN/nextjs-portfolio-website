@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     openGraph: {
         title: 'Matthew',
         description: "I'm a software engineer/web dev",
-        url: 'https://chronark.com',
-        siteName: 'chronark.com',
+        url: 'https://www.matthewnock.co.uk',
+        siteName: 'matthewnock.co.uk',
         images: [
             {
                 url: '',
