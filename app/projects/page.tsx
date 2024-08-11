@@ -20,7 +20,7 @@ const projects = [
     {
         title: 'Numpad game',
         description: 'Quick game I made to test my skills in godot!',
-        href: 'https://github.com/Luna-MN/Numpad',
+        href: '/projects/NumpadGame',
         date: '2024-05-02',
     },
     {
