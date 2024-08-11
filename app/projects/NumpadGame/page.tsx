@@ -21,18 +21,17 @@ export default async function DutyCompletePage() {
                 <p className="flex justify-center items-center mt-4 text-zinc-400">
                     This is a simple game I made to test my skills in godot. It
                     is a simple game where you have to press the numpad keys in
-                    order as fast as you can. This game was made using godot and
-                    C#.
-                    <br /> I made this game to test my skills in godot and to
-                    see how fast I could make a game. The game is simple and
-                    easy to play. you just have to press the numpad keys in
-                    order as fast as you can.
-                    <br /> The game will keep track of your time and show you
-                    how long it took you to complete the game. The game is
-                    simple and easy to play. you just have to press the numpad
-                    keys in order as fast
-                    <br /> as you can. The game will keep track of your time and
-                    show you how long it took you to complete the game.
+                    order as fast as you can. <br /> This game was made using
+                    godot and C#. I made this game to test my skills in godot
+                    and to see how fast I could make a game. The game is simple
+                    <br />
+                    and easy to play. you just have to press the numpad keys in
+                    order as fast as you can. The game will keep track of your
+                    time and show you how long <br /> it took you to complete
+                    the game. The game is simple and easy to play. you just have
+                    to press the numpad keys in order as fast as you can. <br />
+                    The game will keep track of your time and show you how long
+                    it took you to complete the game.
                 </p>
                 <div className="flex justify-center items-center w-full gap-8 mx-auto mt-32 sm:mt-0 lg:gap-16 pt-10">
                     <div className="sm:grid-cols-2">

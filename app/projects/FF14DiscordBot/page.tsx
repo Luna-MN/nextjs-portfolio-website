@@ -31,8 +31,9 @@ export default async function DutyCompletePage() {
                     easy way to get what quest/NPC you need to <br /> go to. it
                     does this but using the Garland Tools api and searching for
                     the item this will give you a long list of accosiated ID's
-                    and from this <br /> we can sanitize the data into places
-                    you get the item from this and then return it to the user.
+                    and from
+                    <br /> this we can sanitize the data into places you get the
+                    item from this and then return it to the user.
                 </p>
                 <div className="flex justify-center items-center w-full gap-8 mx-auto mt-32 sm:mt-0 lg:gap-16 pt-10">
                     <div className="sm:grid-cols-2">
