@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigation } from '../components/nav';
-import { Card } from '../components/card';
+import { ModelViewer } from '../components/ThreeScene';
 import Link from 'next/link';
 
 export default async function ThreePage() {
@@ -14,6 +14,7 @@ export default async function ThreePage() {
                     </div>
                 </h2>
             </div>
+            <ModelViewer />
         </div>
     );
 }
