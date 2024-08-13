@@ -19,7 +19,8 @@ export const Model: React.FC = () => {
 
     useFrame((_state, delta) => {
         if (modelRef.current) {
-            modelRef.current.rotation.y += delta / 2;
+            modelRef.current.rotation.z += delta / 2;
+            modelRef.current.rotation.x += delta / 2;
         }
     });
 
@@ -27,13 +28,13 @@ export const Model: React.FC = () => {
         <>
             <pointLight
                 position={[-10, -10, -10]}
-                color="#48cc90"
-                intensity={5000}
+                color="#ffffff"
+                intensity={500}
             />
             <pointLight
                 position={[10, 10, 10]}
-                color="#36e2e2"
-                intensity={5000}
+                color="#ffffff"
+                intensity={500}
             />
             <primitive object={myModel.scene} ref={modelRef} />
         </>
