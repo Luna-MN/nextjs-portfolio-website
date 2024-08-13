@@ -3,6 +3,7 @@ import { Github, Mail, Twitter, Cuboid } from 'lucide-react';
 import Link from 'next/link';
 import { Navigation } from '../components/nav';
 import { Card } from '../components/card';
+import Particles from '../components/particles'
 
 const socials = [
     {
@@ -33,6 +34,7 @@ export default function Example() {
                 <div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
                     {socials.map((s) => (
                         <Card>
+                            <Particles className="absolute inset-0" quantity={10} />
                             <Link
                                 href={s.href}
                                 target="_blank"
