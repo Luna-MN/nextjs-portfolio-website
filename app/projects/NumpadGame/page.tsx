@@ -15,8 +15,7 @@ export default async function DutyCompletePage() {
                     </div>
                 </h1>
                 <h2 className="flex justify-center items-center mt-4 text-zinc-100">
-                    A discord bot for FFXIV I worked on with a friend coded in
-                    discord.js
+                    Quick game to test my skills in godot
                 </h2>
                 <p className="flex justify-center items-center mt-4 text-zinc-400">
                     This is a simple game I made to test my skills in godot. It
